@@ -1,0 +1,2 @@
+Nginx container that waits for upstream to start before starting nginx service.
+Healthcheck added.
