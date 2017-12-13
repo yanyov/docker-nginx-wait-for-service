@@ -16,6 +16,7 @@ services:
     image: my-nginx
     ports:
       - "8090:80"
+      - "8091:8080"
     depends_on: 
       - jenkins
     command: '/opt/nginx/run.sh jenkins 8080'
